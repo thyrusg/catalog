@@ -1,0 +1,11 @@
+DATABASE: catalog
+
+TABLES: documents
+
+(int) id - unique id of the document
+(str) name - name of the document
+(str) file name - the name of the document on the hard drive
+(int) length - how long the document is (in pages)
+(str) format - the file type of the document
+(str) location - the documents location on the harddrive
+(str) author - the author of the document
