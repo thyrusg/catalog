@@ -1,6 +1,6 @@
 import argparse
 
-parser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser(description="Catalog allows you to search and index your documents")
 
 # Argument for the filename the user can specify
 parser.add_argument("name", help="Name of the document", type=str, default=None)
